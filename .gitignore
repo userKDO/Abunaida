@@ -1,0 +1,128 @@
+# ==========================
+# Compiled / build artifacts
+# ==========================
+*.o
+*.obj
+*.lo
+*.slo
+*.ko
+*.elf
+*.exe
+*.out
+*.app
+*.dll
+*.so
+*.so.*
+*.dylib
+*.a
+*.lib
+*.la
+*.lai
+*.exp
+*.pdb
+*.ilk
+*.map
+
+# ==========================
+# Build directories
+# ==========================
+build/
+build*/
+cmake-build-*/
+out/
+bin/
+obj/
+Debug/
+Release/
+x64/
+x86/
+
+# ==========================
+# CMake
+# ==========================
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+
+# ==========================
+# Make
+# ==========================
+Makefile
+!Makefile.in
+.depend
+
+# ==========================
+# FFmpeg (если собирается из исходников/распаковывается локально)
+# ==========================
+ffmpeg/
+ffmpeg-*/
+ffmpeg-build/
+*.ffpreset
+
+# ==========================
+# miniaudio (обычно header-only, но на всякий случай)
+# ==========================
+miniaudio-build/
+
+# ==========================
+# Логи, кэши, временные файлы
+# ==========================
+*.log
+*.tmp
+*.temp
+*.cache
+*.bak
+*.swp
+*~
+
+# ==========================
+# Отладочные / core dump файлы
+# ==========================
+core
+core.*
+*.stackdump
+
+# ==========================
+# IDE / редакторы
+# ==========================
+.vscode/
+.vs/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# CLion / CMake IDE
+cmake-build-debug/
+cmake-build-release/
+
+# ==========================
+# ОС-специфичные файлы
+# ==========================
+.DS_Store
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+
+# ==========================
+# Пакетные менеджеры C/C++
+# ==========================
+vcpkg_installed/
+conan.lock
+conanbuildinfo.*
+conaninfo.txt
+graph_info.json
+
+# ==========================
+# Прочее
+# ==========================
+*.dSYM/
+*.gcda
+*.gcno
+*.gcov
+compile_commands.json
